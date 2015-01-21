@@ -2,15 +2,24 @@
   "project": {
     "projectSettingsVersion": "1.1",
     "creationData": {
-      "type": "Blank Project",
+      "type": "Import",
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
-      "src": "blankproject",
-      "projectGuid": "8a94b712-0363-494b-a2c8-0d73f76c1cc7",
-      "lastModifiedDate": 1416487761493,
-      "creationDate": 1416196708880
+      "src": "",
+      "projectGuid": "3e15ea1f-7628-402e-bd49-5f2611a12abb",
+      "lastModifiedDate": 1421823428166,
+      "creationDate": 1421823428066
     },
     "sourceDirectory": "www",
+    "cordovaPluginsDirectory": "plugins",
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {
+      "gameEngineName": "Phaser",
+      "gameEngineVersion": "2.1.1"
+    },
     "startFile": "index.html",
+    "projectTags": [
+      "XDK-game-app"
+    ],
     "projectFiles": {},
     "projectDirectories": {},
     "libraries": [
@@ -29,32 +38,23 @@
         }
       }
     ],
-    "serviceMethods": [],
-    "gameAssetDirectory": "asset",
-    "gameMetadata": {
-      "gameEngineName": "phaser",
-      "gameEngineVersion": "2.1.1"
-    },
-    "projectTags": [
-      "XDK-game-app"
-    ],
-    "cordovaPluginsDirectory": "plugins",
     "cordovaPlugins": [
       {
         "id": "org.apache.cordova.device",
         "version": "0.2.9",
-        "selectedState": "Included",
+        "selectedState": "Auto",
         "data": {},
         "paramvals": {}
       },
       {
         "id": "org.apache.cordova.splashscreen",
         "version": "0.3.0",
-        "selectedState": "Included",
+        "selectedState": "Auto",
         "data": {},
         "paramvals": {}
       }
     ],
+    "serviceMethods": [],
     "buildConfigurations": {
       "Android": {
         "platform_": "android",
@@ -63,13 +63,11 @@
         "preferences_": {
           "android-minSdkVersion": "10",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto",
-          "Fullscreen": true,
-          "Orientation": "portrait"
+          "android-installLocation": "auto"
         },
         "isActive_": true,
         "appName_": "phaser-js-template",
-        "appID_": "xdk.intel.phaser.js.project",
+        "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -77,11 +75,9 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
-        "appAuthor_": "",
-        "appVersionCode_": "1"
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "stable"
       },
       "Android-Crosswalk": {
         "platform_": "android",
@@ -90,13 +86,11 @@
         "preferences_": {
           "android-minSdkVersion": "14",
           "android-targetSdkVersion": "19",
-          "android-installLocation": "auto",
-          "Fullscreen": true,
-          "Orientation": "portrait"
+          "android-installLocation": "auto"
         },
         "isActive_": true,
         "appName_": "phaser-js-template",
-        "appID_": "xdk.intel.phaser.js.project",
+        "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -104,11 +98,9 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
         "appVersion_": "0.0.1",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser.",
-        "appAuthor_": "",
-        "appVersionCode_": "1"
+        "appVersionCode_": "1",
+        "crosswalkVersion_": "stable"
       },
       "iOS": {
         "platform_": "ios",
@@ -116,13 +108,11 @@
         "name_": "iOS",
         "preferences_": {
           "ios-target": "5",
-          "ios-configuration": "adhoc",
-          "Fullscreen": true,
-          "Orientation": "portrait"
+          "ios-configuration": "adhoc"
         },
         "isActive_": true,
         "appName_": "phaser-js-template",
-        "appID_": "xdk.intel.phaser.js.project",
+        "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -130,23 +120,16 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
-        "appVersion_": "0.0.1",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+        "appVersion_": "0.0.1"
       },
       "Windows8": {
         "platform_": "windows8",
         "runtime_": "Cordova 3.x",
         "name_": "Windows8",
-        "preferences_": {
-          "windows-publisher-display-name": "",
-          "windows-publisher-id": "",
-          "Fullscreen": true,
-          "Orientation": "portrait"
-        },
+        "preferences_": {},
         "isActive_": true,
         "appName_": "phaser-js-template",
-        "appID_": "xdk.intel.phaser.js.project",
+        "appID_": "not.yet.specified",
         "appAccess_": "*",
         "icons_": [],
         "splashes_": [],
@@ -154,9 +137,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
-        "appVersion_": "0.0.0.1",
-        "appDescription_": "Universal init code for Intel XDK and Cordova device ready detection, as well as within browser."
+        "appVersion_": "0.0.0.1"
       },
       "WindowsPhone8": {
         "platform_": "wp8",
@@ -173,8 +154,7 @@
         "addlPermissions_": "",
         "excludedLibraries_": "",
         "cordovaCLIVersion_": "3.5",
-        "crosswalkVersion_": "stable",
-        "appVersion_": "1.0.0.0"
+        "appVersion_": "0.0.0.1"
       }
     }
   }
