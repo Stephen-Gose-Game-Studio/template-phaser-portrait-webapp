@@ -21,6 +21,8 @@
       "name" : "phaser"
    },
    "title" : "Phaser Game Portrait Template",
+   "section" : "templates",
+   "group" : "games",
    "visible" : true,
    "tooltip" : "A blank template for creating games from Phaser"
 }
